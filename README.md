@@ -1,22 +1,23 @@
-## Where to find everything
+## Onde encontrar tudo
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Sua tarefa é construir o projeto com os designs dentro da pasta `/design`. Você encontrará uma versão móvel e uma versão desktop do design.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
+Os designs estão em formato estático JPG. Usar JPGs significa que você precisará usar seu bom senso para estilos como `tamanho da fonte`, `padding` e `margin`.
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+Todos os ativos necessários para este projeto estão na pasta `/assets`. As imagens já são exportadas para o tamanho de tela correto e otimizadas.
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+Também incluímos arquivos de fontes variáveis e estáticas para as fontes necessárias para este projeto. Você pode optar por vincular ao Google Fonts ou usar os arquivos de fontes locais para hospedar as fontes você mesmo. Observe que removemos os arquivos de fontes estáticas para as espessuras de fonte que não são necessárias para este projeto.
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+Há também um arquivo `style-guide.md` contendo as informações que você precisa, como paleta de cores e fontes.
 
-## Building your project
 
-Feel free to use any workflow that you feel comfortable with. Below is a suggested process, but do not feel like you need to follow these steps:
+## Construindo seu projeto
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with the community if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, and we provide some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+Sinta-se à vontade para usar qualquer fluxo de trabalho com o qual se sinta confortável. Abaixo está um processo sugerido, mas não parece necessário seguir estas etapas:
+
+1. Inicialize seu projeto como um repositório público no [GitHub](https://github.com/). A criação de um repositório tornará mais fácil compartilhar seu código com a comunidade se você precisar de ajuda. Se você não tiver certeza de como fazer isso, [leia este recurso Try Git](https://try.github.io/).
+2. Configure seu repositório para publicar seu código em um endereço da web. Isso também será útil se você precisar de ajuda durante um desafio, pois você pode compartilhar o URL do seu projeto com o URL do seu repositório. Existem várias maneiras de fazer isso e fornecemos algumas recomendações abaixo.
+3. Analise os designs para começar a planejar como você abordará o projeto. Esta etapa é crucial para ajudá-lo a pensar no futuro para que as classes CSS criem estilos reutilizáveis.
+4. Antes de adicionar qualquer estilo, estruture seu conteúdo com HTML. Escrever seu HTML primeiro pode ajudar a concentrar sua atenção na criação de conteúdo bem estruturado.
+5. Escreva os estilos básicos do seu projeto, incluindo estilos de conteúdo geral, como `font-family` e `font-size`.
+6. Comece a adicionar estilos ao topo da página e vá descendo. Só passe para a próxima seção quando estiver satisfeito por ter concluído a área em que está trabalhando.
