@@ -1,99 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
-<link rel="stylesheet" href="style.css">
-<title>Frontend Mentor | Recipe page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media-query.css">
+  <title>Página de Receitas</title> <!--Desafio Recipe Page // Frontend Mentor-->
+  <style>
+    .atribuição { font-size: 18px; text-align: center; }
+    .atribuição a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
   
-  <img src="assets/images/image-omelette.jpeg" alt="Omellete">
+  <main>
 
-  <h1>Simple Omelette Recipe</h1>
+    <picture>
+      <img src="assets/images/image-omelette.jpeg" alt="Imagem de Omelete">
+    </picture>
 
-  <p>
-    An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
-    to perfection, optionally filled with your choice of cheese, vegetables, or meats.
-  </p>
+    <article>
+    <h1>Receita Simples de Omelete</h1> 
+      <p>
+        Um prato fácil e rápido, perfeito para qualquer refeição. Esta omelete clássica combina ovos batidos cozidos
+        com perfeição, opcionalmente recheado com queijo, vegetais ou carnes de sua escolha.
+      </p>
+    </article>
 
-  <div class="preparation">
-  <h3>Preparation time</h3> 
-    <ul>
-      <li><strong>Total:</strong> Approximately 10 minutes</li>
-      <li><strong>Preparation:</strong> 5 minutes</li>
-      <li><strong>Cooking:</strong> 5 minutes</li>
-    </ul>
-  </div>
+    <section class="preparação">
+      <h3 class="h3preparação">Tempo de preparação</h3>
+      <ul>
+        <li><strong>Total:</strong> Aproximadamente 10 minutos</li>
+        <li><strong>Preparação:</strong> 5 minutos</li>
+        <li><strong>Cozinhando:</strong> 5 minutos</li>
+      </ul>
+    </section>
 
-  <h2>Ingredients</h2>
+    <section class="ingredientes">
+      <h2 class="h2ingredientes">Ingredientes</h2>
+      <ul>
+        <li>2-3 ovos grandes</li>
+        <li>Sal, a gosto</li>
+        <li>Pimenta a gosto</li>
+        <li>1 colher de sopa de manteiga ou óleo</li>
+        <li>Recheios opcionais: queijo, legumes em cubos, carnes cozidas, ervas</li>
+      </ul>
+    </section>
 
-  <ul>
-    <li>2-3 large eggs</li>
-    <li>Salt, to taste</li>
-    <li>Pepper, to taste</li>
-    <li>1 tablespoon of butter or oil</li>
-    <li><strong>Optional fillings:</strong> cheese, diced vegetables, cooked meats, herbs</li>
-  </ul>
+    <hr>
 
-  <hr>
+    <section class="instruções">
+      <h2 class="h2instruções">Instruções</h2>
+      <ol>
+        <li>
+          <strong>Bata os ovos:</strong> Numa tigela, bata os ovos com uma pitada de sal e pimenta até ficarem bem misturados.
+          Você pode adicionar uma colher de sopa de água ou leite para obter uma textura mais fofa.
+        </li>
+        <li><strong>Aqueça a panela:</strong> Coloque uma frigideira antiaderente em fogo médio e adicione manteiga ou óleo.</li>
+        <li>
+          <strong>Cozinhe a omelete:</strong> Assim que a manteiga derreter e borbulhar, coloque os ovos. Incline a panela para garantir
+          os ovos cobrem uniformemente a superfície.
+        </li>
+        <li>
+          <strong>Adicione recheios (opcional):</strong> Quando os ovos começarem a endurecer nas bordas, mas ainda estiverem um pouco escorrendo no
+          no meio, polvilhe os recheios escolhidos sobre metade da omelete.
+        </li>
+        <li>
+          <strong>Dobre e sirva:</strong> Enquanto a omelete continua cozinhando, levante cuidadosamente uma das pontas e dobre-a sobre o
+          recheios. Deixe cozinhar por mais um minuto e depois coloque-o em um prato.
+        </li>
+        <li><strong>Aproveite:</strong> Sirva quente, com mais sal e pimenta se necessário.</li>
+      </ol>
+    </section>
 
-  <h2>Instructions</h2>
+    <hr>
 
-  <ol>
-    <li>
-      <strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
-      You can add a tablespoon of water or milk for a fluffier texture.
-    </li><br>
+    <section class="nutrição">
+      <h2 class="h2nutrição">Nutrição</h2>
+      <p>A tabela abaixo mostra os valores nutricionais por porção sem recheios adicionais.</p>
+      <div class="valores">
+        <p>Calorias</p>
+        <p><strong>277kcal</strong></p>
+      </div>
+      <hr>
+      <div class="valores">
+        <p>Carboidratos</p>
+        <p><strong>0g</strong></p>
+      </div>
+      <hr>
+      <div class="valores">
+        <p>Proteinas</p>
+        <p><strong>20g</strong></p>
+      </div>
+      <hr>
+      <div class="valores">
+        <p>Gorduras</p>
+        <p><strong>22g</strong></p>
+      </div>
+    </section>
 
-    <li><strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.</li><br>
-
-    <li>
-      <strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.
-    </li><br>
-
-    <li>
-      <strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the
-      middle, sprinkle your chosen fillings over one half of the omelette.
-    </li><br>
-
-    <li>
-      <strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the
-      fillings. Let it cook for another minute, then slide it onto a plate.
-    </li><br>
-
-    <li><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</li>
-  </ol>
+  </main>
   
-  <hr>
-
-  <h2>Nutrition</h2>
-
-  <p>The table below shows nutritional values per serving without the additional fillings.</p>
-
-  <div class="tabela">
-
-    <div class="item">
-      <p>Calories</p>
-      <p class="quantidade">277kcal</p>
+  <footer>
+    <div class="atribuição">
+      Desafio por <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Codificado por <a href="#">Vinícius Ferraz</a>.
     </div>
+  </footer>
 
-    <div class="item">
-      <p>Carbs</p>
-      <p class="quantidade">0g</p>
-    </div>
-
-    <div class="item">
-      <p>Protein</p>
-      <p class="quantidade">20g</p>
-    </div>
-
-    <div class="item">
-      <p>Fat</p>
-      <p class="quantidade">22g</p>
-    </div>
-    
-  </div>
 </body>
 </html>
