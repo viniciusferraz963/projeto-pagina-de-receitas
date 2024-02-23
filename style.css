@@ -196,8 +196,10 @@ strong {
 }
 
 footer {
+    display: flex;
     flex-direction: row;
-    text-align: center;
-    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
     padding: 10px;
 }
