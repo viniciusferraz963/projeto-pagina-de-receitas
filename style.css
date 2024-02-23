@@ -196,11 +196,8 @@ strong {
 }
 
 footer {
-    margin: auto;
-}
-
-footer > .fparagrafo {
-    font-size: 14px;
+    width: auto;
     text-align: center;
-    padding-bottom: 15px;
+    font-size: 13px;
+    padding: 10px;
 }
