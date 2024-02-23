@@ -195,6 +195,10 @@ strong {
     border-color: var(--RoseWhite);
 }
 
+footer {
+    margin: auto;
+}
+
 footer > .fparagrafo {
     font-size: 14px;
     text-align: center;
