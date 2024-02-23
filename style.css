@@ -196,8 +196,7 @@ strong {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     font-size: 12px;
     padding: 10px;
 }
