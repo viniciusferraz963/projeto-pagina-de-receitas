@@ -12,4 +12,4 @@
 ![Omelete full screen](https://github.com/viniciusferraz963/projeto-pagina-de-receitas/assets/114557730/94a8aec7-8b05-4c3a-bd65-45b175b3d07a)
 
 ###Considerações Finais
-  - Venho agradecer a fontend mentor por disponibilizar esse projeto para a pratica de novos desenvolvedores.
+  - Venho agradecer a front end mentor por disponibilizar esse projeto para a pratica de novos desenvolvedores.
