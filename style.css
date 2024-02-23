@@ -195,6 +195,8 @@ strong {
     border-color: var(--RoseWhite);
 }
 
-footer {
-    margin: 20px;
+footer > p {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 15px;
 }
