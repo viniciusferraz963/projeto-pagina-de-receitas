@@ -37,4 +37,8 @@ Grandes telas: acima de 1200px
         width: 650px;
         transition-duration: 1s;
     }
+
+    footer {
+        font-size: 14px;
+    }
 }
